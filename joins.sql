@@ -1,3 +1,4 @@
+-- psql -f joins.sql dog_park - runs this code
 -- 1. collars with know owners
 SELECT lost_dog_collars.id AS collar_id, dog_owners.name
   FROM dog_owners
